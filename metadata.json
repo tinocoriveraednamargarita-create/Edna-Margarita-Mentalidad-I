@@ -1,0 +1,6 @@
+{
+  "name": "SENA Evaluador AVA - Cátedra Pensamiento Empresarial",
+  "description": "Herramienta y extensión de Chrome para instructores virtuales SENA del área de Gestión Administrativa para calificar y retroalimentar con rúbricas AVA las 4 evidencias de la Cátedra Virtual de Pensamiento Empresarial Módulo I.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

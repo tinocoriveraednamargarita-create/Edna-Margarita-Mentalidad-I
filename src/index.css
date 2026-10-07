@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@layer utilities {
+  /* Subtle SENA Logo Watermark */
+  .sena-watermark-bg {
+    background-image: url('/logo-sena.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 240px;
+    background-blend-mode: soft-light;
+  }
+
+  .sena-watermark-overlay {
+    position: relative;
+  }
+
+  .sena-watermark-overlay::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url('/logo-sena.svg');
+    background-repeat: no-repeat;
+    background-position: center 45%;
+    background-size: 190px;
+    opacity: 0.07;
+    pointer-events: none;
+    z-index: 1;
+  }
+}
